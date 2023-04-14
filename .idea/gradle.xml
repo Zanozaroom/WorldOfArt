@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/base_test" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/commonui" />
+            <option value="$PROJECT_DIR$/core/main_core" />
+            <option value="$PROJECT_DIR$/core/main_core/core_celebrity" />
+            <option value="$PROJECT_DIR$/core/main_core/core_di" />
+            <option value="$PROJECT_DIR$/core/main_core/core_inner" />
+            <option value="$PROJECT_DIR$/core/network" />
+            <option value="$PROJECT_DIR$/core/network/network_api" />
+            <option value="$PROJECT_DIR$/feature" />
+            <option value="$PROJECT_DIR$/feature/bottomMenu" />
+            <option value="$PROJECT_DIR$/feature/feature_auth" />
+            <option value="$PROJECT_DIR$/feature/feature_auth/auth_api" />
+            <option value="$PROJECT_DIR$/feature/feature_auth/auth_inner" />
+            <option value="$PROJECT_DIR$/feature/feature_favorite" />
+            <option value="$PROJECT_DIR$/feature/feature_favorite/favorite_api" />
+            <option value="$PROJECT_DIR$/feature/feature_favorite/favorite_inner" />
+            <option value="$PROJECT_DIR$/feature/feature_museumArt" />
+            <option value="$PROJECT_DIR$/feature/feature_museumArt/museumArt_api" />
+            <option value="$PROJECT_DIR$/feature/feature_museumArt/museumArt_inner" />
+            <option value="$PROJECT_DIR$/feature/feature_search" />
+            <option value="$PROJECT_DIR$/feature/feature_search/search_api" />
+            <option value="$PROJECT_DIR$/feature/feature_search/search_inner" />
+            <option value="$PROJECT_DIR$/feature/feature_setting" />
+            <option value="$PROJECT_DIR$/feature/feature_setting/setting_api" />
+            <option value="$PROJECT_DIR$/feature/feature_setting/setting_inner" />
+            <option value="$PROJECT_DIR$/feature/model_museum" />
+            <option value="$PROJECT_DIR$/feature/model_museum/inner_model" />
+            <option value="$PROJECT_DIR$/feature/model_museum/model_celebrity" />
+            <option value="$PROJECT_DIR$/navigation" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

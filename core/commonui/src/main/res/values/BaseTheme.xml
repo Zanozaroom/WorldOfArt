@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseTheme.ActivityHomeWork" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <!-- Add custom attributes. -->
+        <item name="CTA_windowBackgroundColor">@color/color_windows_background</item>
+        <item name="CTA_backgroundImageArtColor">@color/color_background_art</item>
+        <item name="CTA_TextViewTextAppearance">@style/CustomTextViewTextAppearance</item>
+        <item name="CTA_FillButtonTextAppearance">@style/CustomButtonTextAppearance</item>
+        <item name="CTA_FillButtonTextAppearanceMini">@style/CustomButtonTextAppearance.Mini</item>
+        <item name="CTA_ToolbarTextAppearance">@style/CustomToolbarTextAppearance</item>
+        <item name="CTA_NavHeaderTextAppearance">@style/CustomNavHeaderTextAppearance</item>
+        <item name="CTA_HeaderTextAppearance">@style/CustomHeaderTextViewTextAppearance</item>
+        <item name="CTA_NavTitleTextAppearance">@style/CustomNavTitleTextAppearance</item>
+        <item name="CTA_ToolbarStyle">@style/CustomToolbarStyle</item>
+        <item name="CTA_BottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+        <item name="CTA_FillButtonStyle">@style/ButtonFillStyleIcon</item>
+        <item name="CTA_FillButtonMiniStyle">@style/ButtonFillStyleIcon.Mini</item>
+        <item name="CTA_FillButtonOutlineStyle">@style/ButtonOutlineIconStyle</item>
+        <item name="CTA_FillButtonOutlineStyleMini">@style/ButtonOutlineIconStyleMinimal</item>
+        <item name="CTA_EditTextStyle">@style/EditTextStyle</item>
+        <!-- Add custom styles. -->
+        <item name="toolbarStyle">?attr/CTA_ToolbarStyle</item>
+        <item name="textInputStyle">?attr/CTA_EditTextStyle</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="android:textViewStyle">?attr/CTA_TextViewTextAppearance</item>
+        <item name="bottomNavigationStyle">?attr/CTA_BottomNavigationStyle</item>
+    </style>
+</resources>

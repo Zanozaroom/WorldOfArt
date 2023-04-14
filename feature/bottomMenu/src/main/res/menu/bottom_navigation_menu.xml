@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/chicago_art_graph"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/bottomMenuHome"/>
+    <item
+        android:id="@id/favorite_art_graph"
+        android:enabled="true"
+        android:icon="@drawable/ic_in_favorite"
+        android:title="@string/bottomMenuFavorite"/>
+    <item
+        android:id="@+id/settings_art_graph"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/bottomMenuSettings"/>
+
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loadErrorButton">Попробовать снова</string>
+    <string name="exceptionAddToDataBaseConstraint">Уже в избранном</string>
+    <string name="exceptionNetworkLoadFail">Ошибка загрузки данных из сети, проверьте интернет</string>
+    <string name="exceptionDataBaseLoadFail">Ошибка загрузки данных. Попробуйте снова или переустановите приложение</string>
+    <string name="exceptionAddToDataBaseFail">Не удалось добавить в избранное</string>
+    <string name="exceptionDeleteFromDataBase">Не удалось удалить из избранного</string>
+    <string name="exceptionResolverSaved">Не удалось сохранить файл</string>
+
+    <string name="toastDeleteArt">Удалили из избранного</string>
+    <string name="toastAddArt">Добавили в избранное</string>
+    <string name="toastSavedArt">Всё сохранили!</string>
+    <string name="DescriptionNotImage">Нет изображения</string>
+
+</resources>

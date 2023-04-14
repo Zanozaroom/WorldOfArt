@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="CTA_windowBackgroundColor" format="color" />
+    <attr name="CTA_backgroundImageArtColor" format="color"/>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_primary">#FF1744</color>
+    <color name="color_primary_variant">#C51162</color>
+    <color name="color_secondary">#00B0FF</color>
+    <color name="color_secondary_variant">#811ACA</color>
+    <color name="color_on_primary">#000a12</color>
+    <color name="color_on_secondary">#131313</color>
+    <color name="color_windows_background">#FFFFFF</color>
+    <color name="color_toolbar_mode_day_night">#10108E</color>
+    <color name="color_background_art">#FF9E80</color>
+    <color name="color_in_favorite">#D50000</color>
+    <color name="color_not_favorite">#505050</color>
+    <color name="color_line_image">#070707</color>
+    <color name="color_button_outline_text">#C51162</color>
+    <color name="color_splash_line">#FFFFFF</color>
+    <color name="color_active_menu_btm">#FFFFFF</color>
+    <color name="color_no_active_menu_btm">#131313</color>
+    <color name="color_toolbar_title">#FFFFFF</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="descriptionImageArt">изображение работы</string>
+    <string name="descriptionNotImage">нет изображения</string>
+    <string name="descriptionSaveArt">Сохранить в телефоне</string>
+    <string name="descriptionFavorite">добавить или удалить из избранного</string>
+    <string name="titleImageArt">Заголовок</string>
+    <string name="titleSearch">Поиск</string>
+    <string name="descriptionSearch">Поиск</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textNotAccount">Нет аккаунта</string>
+    <string name="textHaveAccount">Уже зарегистрирован</string>
+    <string name="textGoInApp">Войти</string>
+    <string name="textCheckAccount">Проверяем данные…</string>
+    <string name="textCreateAccount">Создаем аккаунт…</string>
+    <string name="textAuthorisation">Вход</string>
+    <string name="textRegistration">Регистрация</string>
+    <string name="contentDescriptionAuthorisation">Изображение экран входа</string>
+    <string name="hintEmail">Ваш E-Mail</string>
+    <string name="hintPassword">Ваш пароль</string>
+    <string name="errorSingInText">Ошибка авторизации, проверьте корректность данных</string>
+    <string name="errorSingUpText">Ошибка регистрации, проверьте корректность данных</string>
+    <string name="textNotCorrectEmail">Некорректный формат email</string>
+    <string name="textNotCorrectPassword">Пароль не менее 6 символов</string>
+</resources>

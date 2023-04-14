@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="CTA_ToolbarTextAppearance" format="reference" />
+    <attr name="CTA_NavTitleTextAppearance" format="reference" />
+    <attr name="CTA_NavHeaderTextAppearance" format="reference" />
+    <attr name="CTA_TextViewTextAppearance" format="reference"/>
+    <attr name="CTA_FillButtonTextAppearance" format="reference" />
+    <attr name="CTA_FillButtonTextAppearanceMini" format="reference" />
+    <attr name="CTA_HeaderTextAppearance" format="reference"/>
+
+    <style name="CustomHeaderTextViewTextAppearance" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="CustomToolbarTextAppearance" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/roboto_family</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CustomNavHeaderTextAppearance" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="CustomNavTitleTextAppearance" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">@font/roboto_italic</item>
+    </style>
+    <style name="CustomTextViewTextAppearance" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/roboto_family</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="CustomButtonTextAppearance" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/roboto_family</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="CustomButtonTextAppearance.Mini" >
+        <item name="fontFamily">@font/roboto_family</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

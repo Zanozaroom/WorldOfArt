@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/chicago_art_graph"
+    app:startDestination="@id/fragmentMuseumList">
+    <include app:graph="@navigation/search_art_graph"/>
+    <action
+        android:id="@+id/action_search_flow"
+        app:destination="@id/search_art_graph"
+        app:enterAnim="@anim/nav_slide_in"
+        app:exitAnim="@anim/nav_slide_out"
+        app:popEnterAnim="@anim/nav_slide_in"
+        app:popExitAnim="@anim/nav_slide_out"
+        >
+    </action>
+    <fragment
+        android:id="@id/fragmentMuseumList"
+        android:name="com.example.museumart_inner.ui.fragment.MuseumArtWorkFragment"
+        android:label="Art of World" >
+        <action
+            android:id="@+id/action_fragmentMuseumList_to_pageArtWorkFragment"
+            app:destination="@id/pageArtWorkFragment"
+            app:enterAnim="@anim/nav_slide_in"
+            app:exitAnim="@anim/nav_slide_out"
+            app:popEnterAnim="@anim/nav_slide_in"
+            app:popExitAnim="@anim/nav_slide_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/pageArtWorkFragment"
+        android:name="com.example.museumart_inner.ui.fragment.PageArtWorkFragment"
+        android:label="Детали работы">
+
+        <argument
+            android:name="artWorkId"
+            app:argType="string" />
+        <deepLink
+            android:id="@+id/deepLinkPageOfArt"
+            app:uri="angrysnake://PageOfArt/pageOfArtArgs?msg={artWorkId}"
+            />
+    </fragment>
+</navigation>

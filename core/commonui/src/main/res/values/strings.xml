@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Art of World</string>
+    <string name="cv_imageBtnAdd">В любимые</string>
+    <string name="cv_imageBtnBack">Закрыть</string>
+    <string name="cv_imageBtnDelete">Удалить</string>
+    <string name="cv_imageTitle">Заголовок работы</string>
+    <string name="cv_imageDescription">Описание работы</string>
+    <string name="authorArt">Автор работы:</string>
+    <string name="dateCreateAtArt">Создано (год/период):</string>
+    <string name="placeCreateArt">Место создания:</string>
+    <string name="drawerTitle">Ваш навигатор в мире искусства</string>
+
+
+
+
+    <string name="bottomMenuHome">Главная</string>
+    <string name="bottomMenuFavorite">Избранное</string>
+    <string name="bottomMenuSettings">Настройки</string>
+    <string name="titleToolbarMain">Art of Chicago Institute</string>
+    <string name="messageAllPageDownLoaded">Загружены все страницы</string>
+    <string name="contentDescriptionZoomImage">Открыть изображение на весь экран</string>
+    <string name="contentDescriptionImageArt">Изображение работы</string>
+    <string name="btnOpenPageOfArtImage">Подробнее</string>
+    <string name="OpenNavDrawer">Открыть</string>
+    <string name="CloseNavDrawer">Открыть</string>
+    <string name="HeaderSettingsFragment">Настройки приложения</string>
+</resources>

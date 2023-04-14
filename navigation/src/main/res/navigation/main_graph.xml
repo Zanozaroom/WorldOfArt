@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/activity_graph">
+    <include app:graph="@navigation/bottom_menu_graph" />
+    <include app:graph="@navigation/activity_graph" />
+    <include app:graph="@navigation/profile_graph"/>
+    <action
+        android:id="@+id/action_bMenu_flow"
+        app:destination="@id/bottom_menu_graph"
+        app:popUpTo="@id/main_graph"
+        app:enterAnim="@anim/nav_slide_in"
+        app:exitAnim="@anim/nav_slide_out"
+        app:popEnterAnim="@anim/nav_slide_in"
+        app:popExitAnim="@anim/nav_slide_out"/>
+    <action
+        android:id="@+id/action_profile_flow"
+        app:destination="@id/profile_graph"
+        app:popUpTo="@id/main_graph"
+        app:enterAnim="@anim/nav_slide_in"
+        app:exitAnim="@anim/nav_slide_out"
+        app:popEnterAnim="@anim/nav_slide_in"
+        app:popExitAnim="@anim/nav_slide_out"/>
+</navigation>

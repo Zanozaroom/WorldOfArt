@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/favorite_art_graph"
+    app:startDestination="@id/favoriteArtFragment">
+
+    <fragment
+        android:id="@id/favoriteArtFragment"
+        android:name="com.example.favorite_inner.ui.fragment.FavoriteArtFragment"
+        android:label="Избранное" />
+
+</navigation>

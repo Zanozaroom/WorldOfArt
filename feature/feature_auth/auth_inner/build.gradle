@@ -1,0 +1,95 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs'
+}
+
+android {
+    namespace 'com.example.auth_inner'
+    compileSdk 33
+
+    defaultConfig {
+        minSdk 26
+        targetSdk 33
+
+        testInstrumentationRunner "com.example.auth_inner.utills.Runner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    packagingOptions {
+        resources.excludes.add("META-INF/*")
+    }
+    testOptions {
+        animationsDisabled = true
+    }
+
+}
+
+dependencies {
+    implementation project(':feature:feature_auth:auth_api')
+    implementation project(':core:main_core:core_di')
+    implementation project(':core:commonui')
+    implementation project(':core:main_core:core_celebrity')
+    implementation project(':navigation')
+    implementation project(':feature:model_museum:model_celebrity')
+    androidTestImplementation project(':base_test')
+    //firebase
+    implementation platform('com.google.firebase:firebase-bom:31.2.0')
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.android.gms:play-services-auth:20.4.1'
+    //dagger
+    implementation libs.bundles.dagger
+    kapt libs.bundles.daggerKapt
+    kaptTest libs.daggerCore
+    kaptAndroidTest libs.daggerCore
+    //navigation
+    implementation libs.bundles.navigation
+    androidTestImplementation libs.navigationTesting
+    //coroutine
+    implementation libs.coroutines
+    androidTestImplementation libs.androidTestCoroutines
+    testImplementation libs.coroutinesTestJunit
+    //base core
+    implementation libs.bundles.baseCore
+    //ui core
+    implementation libs.bundles.uiCore
+    //test base
+    androidTestImplementation libs.bundles.testAndroidBase
+    testImplementation libs.baseTestJunit
+    //test mockk
+    testImplementation libs.mockkTest
+    debugImplementation libs.mockkTestAndroid
+    //test ui
+    androidTestImplementation libs.androidTestArch
+
+    androidTestImplementation libs.bundles.uiCore
+    androidTestImplementation libs.bundles.baseCore
+
+    androidTestImplementation 'androidx.test.ext:junit-ktx:1.1.5'
+    androidTestImplementation "androidx.test:core:1.5.0"
+    debugImplementation "androidx.fragment:fragment-testing:1.5.5"
+    implementation "androidx.test:core:1.5.0"
+    androidTestImplementation  "androidx.test.ext:junit:1.1.5"
+    androidTestImplementation  "androidx.test.espresso:espresso-core:3.5.1"
+    androidTestImplementation  "androidx.test:runner:1.5.1"
+    androidTestImplementation  "androidx.test:rules:1.5.0"
+    androidTestImplementation  "androidx.arch.core:core-testing:2.1.0"
+    androidTestImplementation  "androidx.test.espresso:espresso-contrib:3.5.1"
+    androidTestImplementation  "androidx.test.espresso:espresso-idling-resource:3.5.1"
+    testImplementation  "io.mockk:mockk:1.13.3"
+    androidTestImplementation "io.mockk:mockk-android: 1.13.3"
+}

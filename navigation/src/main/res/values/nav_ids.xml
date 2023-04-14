@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activity_graph" type="id" />
+    <item name="bottom_menu_graph" type="id" />
+    <item name="chicago_art_graph" type="id" />
+    <item name="favorite_art_graph" type="id"/>
+    <item name="search_art_graph" type="id"/>
+    <item name="settings_art_graph" type="id"/>
+    <item name="profile_graph" type="id"/>
+    <item name="fragmentMuseumList" type="id"/>
+    <item name="favoriteArtFragment" type="id"/>
+    <item name="searchFragment" type="id"/>
+
+
+</resources>

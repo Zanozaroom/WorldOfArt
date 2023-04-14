@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/profile_graph"
+    app:startDestination="@id/singInFragment">
+
+    <fragment
+        android:id="@+id/singInFragment"
+        android:name="com.example.auth_inner.ui.fragment.SingInFragment"
+        android:label="Авторизация"
+        tools:layout="@layout/fragment_sing_in">
+        <action
+            android:id="@+id/action_singInFragment_to_singUpFragment"
+            app:destination="@id/singUpFragment"
+            app:popUpTo="@id/singInFragment"
+            app:popUpToInclusive="false"
+            app:enterAnim="@anim/nav_slide_in"
+            app:exitAnim="@anim/nav_slide_out"
+            app:popEnterAnim="@anim/nav_slide_in"
+            app:popExitAnim="@anim/nav_slide_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/singUpFragment"
+        android:name="com.example.auth_inner.ui.fragment.SingUpFragment"
+        android:label="Новый пользователь"
+        tools:layout="@layout/fragment_sing_up">
+        <action
+            android:id="@+id/action_singUpFragment_to_singInFragment"
+            app:destination="@id/singInFragment"
+            app:enterAnim="@anim/nav_slide_in"
+            app:exitAnim="@anim/nav_slide_out"
+            app:popEnterAnim="@anim/nav_slide_in"
+            app:popExitAnim="@anim/nav_slide_out"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "897131330360",
+    "project_id": "alfaproject-ee127",
+    "storage_bucket": "alfaproject-ee127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897131330360:android:86817f0d36dcda97239fcd",
+        "android_client_info": {
+          "package_name": "com.example.project_alfa_angry_snake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897131330360-bi09knaoeoagqc3ohsn40qj5momlie8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4C0JrVXV9KVfIz0CbonnhrXT2omxaNrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897131330360-bi09knaoeoagqc3ohsn40qj5momlie8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

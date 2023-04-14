@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="headerDialogSetTheme">Выбор темы приложения</string>
+    <string name="textLightTheme">Светлая тема</string>
+    <string name="textDarkTheme">Темная тема</string>
+    <string name="textMobileTheme">Системная</string>
+    <string name="textProfile">Профиль</string>
+    <string name="DescriptionImageProfile">изображение профиля</string>
+    <string name="textLogout">выйти из системы</string>
+    <string name="textSettingsApp">Настройки приложения</string>
+    <string name="textThemeApp">Тема приложения</string>
+</resources>

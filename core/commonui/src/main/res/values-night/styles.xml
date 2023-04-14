@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="customButtonCancel" parent="Widget.MaterialComponents.Button.OutlinedButton.Icon">
+        <item name="strokeColor">?attr/colorPrimaryVariant</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textAppearance">?attr/CTA_FillButtonTextAppearance</item>
+    </style>
+    <style name="customButtonOk" parent="@style/Widget.MaterialComponents.Button.Icon">
+    <item name="backgroundTint">?attr/colorPrimaryVariant</item>
+    <item name="android:textColor">?attr/colorSecondary</item>
+    <item name="iconTint">?attr/colorPrimary</item>
+    <item name="android:paddingVertical">8dp</item>
+    <item name="android:textAppearance">?attr/CTA_FillButtonTextAppearance</item>
+    </style>
+</resources>

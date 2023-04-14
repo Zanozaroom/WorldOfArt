@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Angry_snake_project" parent="BaseTheme.ActivityHomeWork">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">?attr/CTA_windowBackgroundColor</item>
+        <item name="materialButtonStyle">@style/ButtonOutlineIconStyle</item>
+    </style>
+</resources>

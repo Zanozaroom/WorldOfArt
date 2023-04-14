@@ -1,0 +1,47 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "project_alfa_angry_snake"
+include ':app'
+include ':navigation'
+
+include ':core:network'
+include ':core:commonui'
+
+include ':feature:bottomMenu'
+
+include ':feature:feature_auth:auth_api'
+include ':feature:feature_auth:auth_inner'
+
+include ':feature:feature_favorite:favorite_api'
+include ':feature:feature_favorite:favorite_inner'
+
+include ':feature:feature_museumArt:museumArt_api'
+include ':feature:feature_museumArt:museumArt_inner'
+
+include ':feature:feature_search:search_api'
+include ':feature:feature_search:search_inner'
+
+include ':feature:model_museum:inner_model'
+include ':feature:model_museum:model_celebrity'
+
+include ':feature:feature_setting:setting_api'
+include ':feature:feature_setting:setting_inner'
+
+include ':core:main_core:core_celebrity'
+include ':core:main_core:core_di'
+include ':core:main_core:core_inner'
+
+include ':core:network:network_api'
+include ':base_test'

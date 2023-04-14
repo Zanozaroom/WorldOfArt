@@ -1,0 +1,96 @@
+[versions]
+dagger = "2.44.2"
+navigator = "2.5.3"
+kotlin = "1.9.0"
+lifecycle = "2.5.1"
+mockk = "1.13.3"
+room = "2.5.0"
+glide = "4.14.2"
+coroutines = "1.6.4"
+
+
+[bundles]
+retrofit = ["retrofitCore", "retrofitOkhttp3Logging", "retrofitOkhttp3Core", "retrofitMoshiConverter"]
+dagger = ["daggerCore", "daggerAndroid"]
+daggerKapt = ["daggerCoreKapt", "daggerAndroidKapt"]
+navigation = ["navigationFragment", "navigationUi", "navigationDynamic"]
+roomCore = ["roomCoreRuntime", "roomCore"]
+roomKapt = ["kaptRoomCore", "kaptRoomCompiler"]
+baseCore = ["baseCoreKtx", "baseCoreAppcompat", "baseCoreMaterial"]
+uiCore = ["uiCoreFragment", "uiCoreActivity", "uiCoreConstraintlayout", "uiCoreLegacy",
+    "uiCoreLivedata", "uiCoreViewmodel", "uiCoreRuntime"]
+testAndroidBase = ["androidBaseTestJunit", "androidBaseTestEspresso"]
+testAndroidUi = ["androidTestRunner", "androidTestRules",
+    "androidTestHamcrest", "androidTestEspressoContrib", "androidTestEspressoIdling"]
+
+
+[libraries]
+#Retrifit-Moshi
+retrofitCore = "com.squareup.retrofit2:retrofit:2.9.0"
+retrofitOkhttp3Logging = "com.squareup.okhttp3:logging-interceptor:4.9.3"
+retrofitOkhttp3Core = "com.squareup.okhttp3:okhttp:4.9.3"
+retrofitMoshiConverter = "com.squareup.retrofit2:converter-moshi:2.5.0"
+kaptRetrofitMoshiCodegen = "com.squareup.moshi:moshi-kotlin-codegen:1.14.0"
+
+#Room
+kaptRoomCore = { module = "androidx.room:room-compiler", version.ref = "room" }
+kaptRoomCompiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+roomCoreRuntime = { module = "androidx.room:room-runtime", version.ref = "room" }
+roomCore = { module = "androidx.room:room-ktx", version.ref = "room" }
+
+#Dagger
+daggerCore = { module = "com.google.dagger:dagger", version.ref = "dagger" }
+daggerCoreKapt = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger" }
+daggerAndroid = { module = "com.google.dagger:dagger-android-support", version.ref = "dagger" }
+daggerAndroidKapt = { module = "com.google.dagger:dagger-android-processor", version.ref = "dagger" }
+
+#Navigator Component
+navigationFragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigator" }
+navigationUi = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigator" }
+navigationDynamic = { module = "androidx.navigation:navigation-dynamic-features-fragment", version.ref = "navigator" }
+navigationTesting = { module = "androidx.navigation:navigation-testing", version.ref = "navigator" }
+
+#Recycler
+recycler = "androidx.recyclerview:recyclerview:1.2.1"
+
+#Glide
+glideCore = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+glideCompiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
+
+#Coroutines
+coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutinesTestJunit = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+androidTestCoroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+
+#Base core
+baseCoreKtx = { module = "androidx.core:core-ktx", version.ref = "kotlin" }
+baseCoreAppcompat = "androidx.appcompat:appcompat:1.6.1"
+baseCoreMaterial = "com.google.android.material:material:1.8.0"
+
+#UI Core
+uiCoreFragment = "androidx.fragment:fragment-ktx:1.5.5"
+uiCoreActivity = "androidx.activity:activity-ktx:1.6.1"
+uiCoreConstraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
+uiCoreLegacy = "androidx.legacy:legacy-support-v4:1.0.0"
+uiCoreLivedata = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
+uiCoreViewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+uiCoreRuntime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
+
+#TESTS
+baseTestJunit = "junit:junit:4.13.2"
+
+androidBaseTestJunit = "androidx.test.ext:junit:1.1.5"
+androidBaseTestEspresso = "androidx.test.espresso:espresso-core:3.5.1"
+androidTestRunner = "androidx.test:runner:1.5.1"
+androidTestRules = "androidx.test:rules:1.5.0"
+androidTestArch = "androidx.arch.core:core-testing:2.1.0"
+androidTestHamcrest = "org.hamcrest:hamcrest:2.2"
+androidTestEspressoContrib = "androidx.test.espresso:espresso-contrib:3.5.1"
+androidTestEspressoIdling = "androidx.test.espresso:espresso-idling-resource:3.5.1"
+mockkTest =  { module = "io.mockk:mockk", version.ref = "mockk" }
+mockkTestAndroid = { module = "io.mockk:mockk-android", version.ref = "mockk" }
+
+
+
+
+

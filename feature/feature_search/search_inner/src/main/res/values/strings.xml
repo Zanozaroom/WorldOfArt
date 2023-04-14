@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hintSearch">Поиск (только английский)</string>
+    <string name="chipWoman">Woman</string>
+    <string name="chipMan">Man</string>
+    <string name="chipCat">Cat</string>
+    <string name="Animals">Animals</string>
+    <string name="chipChildren">Children</string>
+    <string name="chipBirds">Birds</string>
+    <string name="descriptionIconCloseSearch">закрыть поиск</string>
+</resources>
